@@ -3,7 +3,7 @@ interface Array<T> {
 }
 
 interface StringConstructor {
-  whitespace(size?: number): string;
+  whitespace(length?: number): string;
 }
 
 interface String {

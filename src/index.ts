@@ -4,9 +4,9 @@ Array.prototype.empty = function () {
   return this.length == 0;
 }
 
-String.whitespace = function (size: number = 1): string {
+String.whitespace = function (length: number = 1): string {
   let whitespace = '';
-  for (let i = 0; i < size; i++) whitespace += '\u00A0';
+  for (let i = 0; i < length; i++) whitespace += '\u00A0';
   return whitespace;
 }
 
