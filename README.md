@@ -8,12 +8,10 @@
 
 ## Installation
 
-<br>
-
 ### Install package
 
 ```
-npm install -g @angular/cli
+npm install @simuf0/polyfills
 ```
 
 ### Usage
@@ -34,8 +32,6 @@ require('@simuf0/polyfills');
 
 ## Array extensions
 
-<br>
-
 ### Array.prototype.empty
 
 ```ts
@@ -47,8 +43,6 @@ Check if an array is empty.
 <br>
 
 ## String extensions
-
-<br>
 
 ### String.whitespace
 
