@@ -1,4 +1,4 @@
-<h1 align="center">simuf0 Polyfills - v.1.0.0</h1>
+<h1 align="center">simuf0 Polyfills - v.1.0.1</h1>
 
 <p align="center">
   <i>The large JS native's classes extension.</i>
