@@ -1,0 +1,22 @@
+{
+  "name": "@simuf0/polyfills",
+  "version": "1.0.3",
+  "main": "index.js",
+  "dependencies": {
+    "sprintf-js": "^1.1.2"
+  },
+  "description": "",
+  "keywords": [
+    "polyfill"
+  ],
+  "author": "Simon Cabos <cabos.simon.dev@gmail.com> (https://github.com/simuf0)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simuf0/polyfills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simuf0/polyfills/issues"
+  },
+  "homepage": "https://github.com/simuf0/polyfills#readme"
+}

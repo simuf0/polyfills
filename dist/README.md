@@ -1,20 +1,20 @@
-<h1 align="center">simuf0 Polyfills - v.1.0.2</h1>
+<h1 align="center">simuf0 Polyfills - v.1.0.3</h1>
 
 <p align="center">
-  <i>The large JS native's classes extension.</i>
+  <i>A large JS native's classes extension.</i>
 </p>
 
 <br>
 
 ## Installation
 
-### Install package
+#### Install package
 
 ```
 npm install @simuf0/polyfills
 ```
 
-### Usage
+## Import
 
 #### Import statement:
 
@@ -28,11 +28,11 @@ import "@simuf0/polyfills";
 require('@simuf0/polyfills');
 ```
 
-<br>
+## Usage
 
-## Array extensions
+### Array
 
-### Array.prototype.empty
+#### Array.prototype.empty
 
 ```ts
 Array.prototype.empty(): boolean;
@@ -40,11 +40,9 @@ Array.prototype.empty(): boolean;
 
 Check if an array is empty.
 
-<br>
+### String
 
-## String extensions
-
-### String.whitespace
+#### String.whitespace
 
 ```ts
 String.whitespace(length?: number): string;
@@ -58,7 +56,7 @@ Parameters :
 
 <br>
 
-### String.prototype.empty
+#### String.prototype.empty
 
 ```ts
 String.prototype.empty(): boolean;
@@ -68,7 +66,7 @@ Check if a string is empty.
 
 <br>
 
-### String.prototype.sprintf
+#### String.prototype.sprintf
 
 ```ts
 String.prototype.sprintf(...args: any[]): string;
@@ -79,3 +77,12 @@ Returns a formatted string.
 Parameters :
 
 `args: Array<string>` (Optional) The replacement values.
+
+## Changelogs
+
+Changes are referred at this [section](./CHANGELOG.md).
+
+
+## License
+
+This plugin is issued under the [MIT license](./LICENSE).
